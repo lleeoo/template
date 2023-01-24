@@ -53,3 +53,6 @@ class TestUtils(unittest.TestCase):
     @unittest.skip("Only enabled to run the debugger")
     def test_debug(self):
         "this also tests get tree"
+
+if __name__ == '__main__':
+    unittest.main()
