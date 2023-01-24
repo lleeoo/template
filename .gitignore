@@ -1,0 +1,13 @@
+*.xlsx
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+
+# ignore tmp except for packaging skeleton
+tmp/*
+tmp/packaging/src/*.egg-info
+tmp/packaging/dist/*
+!tmp/packaging/
+!tmp/packaging/*
+# ignore data cache folder
+data/

@@ -1,0 +1,23 @@
+# See https://packaging.python.org/en/latest/tutorials/packaging-projects/
+[build-system]
+requires = ["setuptools>=61.0", "pandas>=1.4"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "template"
+version = "0.0.1"
+authors = [
+  { name="Pandi", email="lleeoo@gmail.com" },
+]
+description = "Template project"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
